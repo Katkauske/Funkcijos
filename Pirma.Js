@@ -7,7 +7,7 @@ console.log("Skaiciaus kubas yra:" + kubas)
 
 function skaiciausKubas(a){
     let kubas = skaicius * skaicius * skaicius;
-    return kubas ;
+    return kubas;
 }
 
 
