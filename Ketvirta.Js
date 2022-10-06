@@ -1,5 +1,5 @@
 let a = +prompt("Iveskite skaiciu:")
-let rezultatas = -1 * a;
+let rezultatas = revert(a);
 alert(rezultatas)
 
 
