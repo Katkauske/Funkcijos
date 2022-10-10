@@ -2,9 +2,14 @@
 let c = +prompt("Iveskite krastine c:");
 let b = +prompt("Iveskite krastine b:");
 let rezultatas = formule(b,c);
-console.log(rezultatas) 
+let rezultatoSaknis = ilgioRadimas(c,b);
+console.log("krastines ilgio kvadratas " + rezultatas) 
+console.log("krastines ilgis " + rezultatoSaknis)
 
 
+function ilgioRadimas(c,b)  {
+    return Math.sqrt(formule(c,b));
+}
 
 
 function formule(c,b){
