@@ -1,17 +1,14 @@
 
-let b = +prompt("Iveskite krastine b:");
 let c = +prompt("Iveskite krastine c:");
-let rezultatas = formule();
-let kvadratas 
-alert(kvadratas) = a2()
+let b = +prompt("Iveskite krastine b:");
+let rezultatas = formule(b,c);
+console.log(rezultatas) 
 
 
 
-function formule(){
+
+function formule(c,b){
 let rezultatas = (c*2) - (b*2);
-return rezultatas;
+return rezultatas * rezultatas;
 }
-function a2(){
-let kvadratas = rezultatas * rezultatas;
-return kvadratas;
-}
+
